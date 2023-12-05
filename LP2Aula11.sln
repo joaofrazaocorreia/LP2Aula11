@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrogRace", "FrogRace\FrogRa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InputSystem", "InputSystem\InputSystem.csproj", "{324370D0-DBB5-47E8-8F5A-5077536B4C13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Indexers", "Indexers\Indexers.csproj", "{4BE620F4-7DB2-4E60-960E-54B0FF6BD8A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{324370D0-DBB5-47E8-8F5A-5077536B4C13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{324370D0-DBB5-47E8-8F5A-5077536B4C13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{324370D0-DBB5-47E8-8F5A-5077536B4C13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BE620F4-7DB2-4E60-960E-54B0FF6BD8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BE620F4-7DB2-4E60-960E-54B0FF6BD8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BE620F4-7DB2-4E60-960E-54B0FF6BD8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BE620F4-7DB2-4E60-960E-54B0FF6BD8A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
