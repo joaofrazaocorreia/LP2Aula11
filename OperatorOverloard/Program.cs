@@ -7,8 +7,8 @@ namespace OperatorOverload
         private static void Main()
         {
             // Declare and instantiate two vectors
-            Vector2 v1 = new Vector2(5, 2);
-            Vector2 v2 = new Vector2(-1, 0);
+            Vector3 v1 = new Vector3(5, 2, -1);
+            Vector3 v2 = new Vector3(-1, 0, 1);
 
             // Show the vector values
             Console.WriteLine($"v1 = {v1}");
@@ -44,6 +44,19 @@ namespace OperatorOverload
             Console.WriteLine($"v1 >= v2? {v1 >= v2}");
             Console.WriteLine($"v1 <  v2? {v1 < v2}");
             Console.WriteLine($"v1 <= v2? {v1 <= v2}");
+
+
+            Vector2 v3 = (Vector2)v1;
+            Vector2 v4 = v2.ToVector2();
+            Vector3 v5 = v3 + v4;
+
+            // Show the vector values
+            Console.WriteLine($"v3 = {v3}");
+            Console.WriteLine($"v4 = {v4}");
+            Console.WriteLine($"v5 = {v5}");
+
+            Console.WriteLine($"v1 == v3? {v1 == v3.ToVector3()}");
+            Console.WriteLine($"v3 == v1? {v3 == v1.ToVector2()}");
         }
     }
 }
